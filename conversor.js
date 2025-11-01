@@ -4,7 +4,7 @@ let inputUnit = document.getElementById("inputUnit").value ;
 let outputUnit = document.getElementById("outputUnit").value ;
 let valueInMeters;
 let outputValue;
-if (inputUnit === "meters") {
+if (inputUnit === "metros") {
 valueInMeters = inputValue;
 } else if (inputUnit === "kilometers") {
 valueInMeters = inputValue * 1000;
@@ -14,13 +14,13 @@ valueInMeters = inputValue * 1609.34;
 valueInMeters = inputValue * 0.3048;
 } else {
 }
-if (outputUnit === "meters") {
+if (outputUnit === "metros") {
 outputValue = valueInMeters;
-} else if (outputUnit === "kilometers") {
+} else if (outputUnit === "kilometros") {
 outputValue = valueInMeters / 1000;
-} else if (outputUnit === "miles") {
+} else if (outputUnit === "millas") {
 outputValue = valueInMeters / 1609.34;
-} else if (outputUnit === "feet") {
+} else if (outputUnit === "pies") {
 outputValue = valueInMeters / 0.3048;
 } else {}
 document.getElementById("result").innerText = "El resultado es " + outputValue.toFixed(2) + "" + outputUnit;
