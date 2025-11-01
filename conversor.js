@@ -6,9 +6,9 @@ let valueInMeters;
 let outputValue;
 if (inputUnit === "metros") {
 valueInMeters = inputValue;
-} else if (inputUnit === "kilometers") {
+} else if (inputUnit === "kilometros") {
 valueInMeters = inputValue * 1000;
-} else if (inputUnit === "miles") {
+} else if (inputUnit === "millas") {
 valueInMeters = inputValue * 1609.34;
 } else if (inputUnit === "pies") {
 valueInMeters = inputValue * 0.3048;
