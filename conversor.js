@@ -10,7 +10,7 @@ valueInMeters = inputValue;
 valueInMeters = inputValue * 1000;
 } else if (inputUnit === "miles") {
 valueInMeters = inputValue * 1609.34;
-} else if (inputUnit === "feet") {
+} else if (inputUnit === "pies") {
 valueInMeters = inputValue * 0.3048;
 } else {
 }
