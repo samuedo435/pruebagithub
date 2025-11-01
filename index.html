@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <title>Conversor de Unidades </title>
+    <link rel="stylesheet" href="conversor.css">
+</head>
+<body>
+  <div class="container">
+<h1>Conversor de Longitudes</h1>
+<p>Ingrese el valor a convertir y seleccione la unidad</p>
+<input type="text" id="inputValue">
+<select id="inputUnit">
+  <option value="meters">Metros</option>
+  <option value="kilometers">Kilómetros</option>
+  <option value="feet">Pies</option>
+  <option value="miles">Millas</option>
+</select>
+<p>a</p>
+<select id="outputUnit">
+  <option value="meters">Metros</option>
+  <option value="kilometers">Kilómetros</option>
+  <option value="feet">Pies</option>
+  <option value="miles">Millas</option>
+</select>
+<button id="convertBtn" onclick="convert()">Convertir</button>
+<p id="result"></p>
+  </div>
+<script src="conversor.js"></script>
+</body>   
+</html>
